@@ -4,11 +4,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
 
 :root {
-    --main-color: #8f9499;
-    --third-color:#35aa35;
-    --white-color: #0f0f0f;
-    --secondary-color: #1fa055;
-    --bgwhite-color: #313030;
+    --main-color: #00A19D;
+    --third-color:#00A19D;/*cambia la letra*/
+    --white-color: #FFF8E5;
+    --secondary-color: #d43fbb;
+    --bgwhite-color: #FFF8E5;
   }
 
 *,
@@ -281,9 +281,9 @@ ul.show{
 .fa-bootstrap{
     color:#5b3679 ;
 }
-.fa-php{
-    color: #000;
-    background: #5b3679;
+.fa-database{
+    color: #36793c;
+    background: none;
     border-radius: 10%;
 }
 
@@ -320,7 +320,7 @@ ul.show{
     flex-direction: column;
     align-items:center;
     justify-content: space-around;
-    background-color: #1ef5adB3;
+    background-color: #1e8df55e;
     border-radius: 10px;
     height: 200px;
     width: 100%;
@@ -382,13 +382,14 @@ width: 80%;
 
 }
 .contacto_container h3{
-    color: var(--secondary-color);
+    color: #000;
     font-weight: bold;
     font-size: 20px;
+    text-align: center;
 }
 .contacto_flex{
     display: grid;
-    grid-template-columns: 0.6fr 1fr;
+    grid-template-columns: 0.6fr 1,5fr;
 }
 
 .contacto_form{
@@ -458,7 +459,7 @@ width: 80%;
     
 }
 .contacto_icon-content{
-    margin-top: 10px;
+
     display: flex;
     width: 4rem;
     height: 4rem;
@@ -489,7 +490,7 @@ width: 80%;
     background-color: #2A2;
     border: 3px #363;
 }
-
+/* ---FOOTER--- */
 .footer{
     background-color: var(--secondary-color);
     text-align: center;
