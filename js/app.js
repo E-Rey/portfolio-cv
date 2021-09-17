@@ -33,7 +33,7 @@ function mostrarMenu() {
             $spinner.innerHTML = `<div class="dot1"></div>
                             <div class="dot2"></div>`
             $form.appendChild($spinner)
-            fetch("https://formsubmit.co/ajax/f44c41af89dee1bfe679ab3f59428cea", {
+            fetch("https://formsubmit.co/ajax/estebanbraianrey@gmail.com", {
                 method: "POST",
                 body: new FormData(e.target),
             })
